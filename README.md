@@ -2,8 +2,11 @@
 
 <img src="./assets/icon-deliveries.png" alt="Deliveries icon" width="128" height="128">
 
-The Deliveries Toolkit for Alfred makes it easy to track packages with [Deliveries for Mac](http://deliveriesapp.com).
+The Deliveries Toolkit for Alfred makes it easy to track packages with [Deliveries for Mac](https://deliveries.app/).
 
+![Deliveries Screen](./assets/deliveries-screen-en@2x.png)
+
+Deliveries supports dozens of services, including UPS, FedEx, US Postal Service, DHL, TNT, Canada Post, DPD, and [many more](https://junecloud.com/software/iphone/deliveries.html#services). You can also track orders from services like Amazon and Apple, even before they ship.
 
 ## Installation
 <a href="https://github.com/chrismessina/alfred-deliveries-toolkit/releases/latest/download/deliveries-toolkit.alfredworkflow"><img src="./assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
@@ -15,7 +18,9 @@ _You will need [Alfred Powerpack](https://www.alfredapp.com/powerpack/) to enabl
 
 ## Usage
 
-Use one of the keywords (<kbd>add</kbd>, <kbd>track</kbd>, or <kbd>+</kbd>) followed by a space and then a tracking number to add it to Deliveries.
+Use one of the keywords (<kbd>add</kbd>, <kbd>track</kbd>, or <kbd>+</kbd>) followed by a space and then a tracking number to add it to Deliveries:
+
+![Deliveries Screen](./assets/deliveries-preview.gif)
 
 **Recommended**: Add a hotkey trigger to send selected text to Deliveries!
 

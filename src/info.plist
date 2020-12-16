@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.chrismessina.toolkits.deliveries</string>
+	<key>category</key>
+	<string>Toolkits</string>
+	<key>connections</key>
+	<dict>
+		<key>04D44ADD-3F99-4BC5-9D15-0BD6B21D79C7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76C25ED9-32C4-46CA-A4B2-C8B9E3738D72</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BAE6F833-1BE8-4C72-96A6-1158FA6B64B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C48467DD-85A7-45B8-99C8-B315519FF1C1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Chris Messina</string>
+	<key>description</key>
+	<string>Track packages quickly with Deliveries</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Deliveries Toolkit</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>BAE6F833-1BE8-4C72-96A6-1158FA6B64B0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>add</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Add {query} to Deliveries</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C48467DD-85A7-45B8-99C8-B315519FF1C1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>deliveries://add/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>+</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Track {query} with Deliveries</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>04D44ADD-3F99-4BC5-9D15-0BD6B21D79C7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>track</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Track {query} with Deliveries</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>76C25ED9-32C4-46CA-A4B2-C8B9E3738D72</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>The Deliveries Toolkit for Alfred makes it easy to quickly track packages with Deliveries for Mac, available on the Mac App Store:
+
+https://deliveriesapp.com
+
+--
+
+🎩 You can find my Alfred Themes and Workflows here:
+
+https://github.com/chrismessina?tab=repositories&amp;q=alfred
+
+☕ You can also tip me a coffee or two if you like:
+
+https://ko-fi.com/chris
+
+🤙🏻 I'm available for product design consulting as well:
+
+https://superpeer.com/chrismessina
+
+Inspired by JuneCloud's Add to Deliveries for Alfred Workflow:
+https://junecloud.com/software/mac/add-to-deliveries-alfred.html</string>
+	<key>uidata</key>
+	<dict>
+		<key>04D44ADD-3F99-4BC5-9D15-0BD6B21D79C7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>75</integer>
+			<key>ypos</key>
+			<integer>205</integer>
+		</dict>
+		<key>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</key>
+		<dict>
+			<key>xpos</key>
+			<integer>295</integer>
+			<key>ypos</key>
+			<integer>175</integer>
+		</dict>
+		<key>76C25ED9-32C4-46CA-A4B2-C8B9E3738D72</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>235</integer>
+		</dict>
+		<key>BAE6F833-1BE8-4C72-96A6-1158FA6B64B0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>C48467DD-85A7-45B8-99C8-B315519FF1C1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>175</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1</string>
+	<key>webaddress</key>
+	<string>https://chrismessina.me</string>
+</dict>
+</plist>

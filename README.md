@@ -36,7 +36,7 @@ This workflow is unaffiliated with nor endorsed by JuneCloud. Package Pal icon i
 
 You can [file bugs](https://github.com/chrismessina/alfred-deliveries-toolkit/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-deliveries-toolkit/issues/new) on GitHub using the label `enhancement`.
 
-Discuss on <a href="https://www.alfredforum.com/">Alfred Forum</a>.
+Discuss on <a href="https://www.alfredforum.com/topic/16318-track-holiday-deliveries-with-alfred-%F0%9F%8E%85%F0%9F%8F%BB%F0%9F%93%A6/">Alfred Forum</a>.
 
 ## License
 

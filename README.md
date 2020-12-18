@@ -28,6 +28,12 @@ Use one of the keywords (<kbd>add</kbd>, <kbd>track</kbd>, or <kbd>+</kbd>) foll
 
 ## Changelog[¹](https://keepachangelog.com/)
 
+### [v0.1.1] - 2020-12-17
+### Added
+- Added OneUpdater
+- Added Junction object to clean up connectors
+
+
 ### [v0.1.0] - 2020-12-13
 - Initial Release
 
